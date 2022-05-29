@@ -16,9 +16,7 @@ If there are red areas then:
 
 ```bash
 git add .
-```
 
-```bash
 git status
 ```
 
@@ -26,10 +24,9 @@ Now if everything is green:
 
 ```bash
 git commit -m "Some comment here"
-```
 
-```bash
 git push
 ```
+
 
 Use your username, and authentication token as password. Look into how to make authentication permanent.
