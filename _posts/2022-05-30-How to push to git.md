@@ -1,5 +1,5 @@
 ---
-title: This is to test push functionality
+title: How to make changes & push to Git
 categories: [social, misc]
 tags: [renderex computers,servers,workstations] #TAG names should be lowercase
 ---
