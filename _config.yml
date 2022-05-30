@@ -34,8 +34,8 @@ url: 'https://docs.renderex.ae'
 github:
   username: renderex             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+#  username: twitter_username            # change to your twitter username
 
 social:
   # Change to your full name.
@@ -49,6 +49,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     - https://www.linkedin.com/company/69259567/
+    - https://www.instagram.com/renderex.ae/
     # - https://www.youtube.com/channel/UC3W69I_MOgw734_eXhRn57Q/
 
 google_site_verification:               # fill in to your verification string
