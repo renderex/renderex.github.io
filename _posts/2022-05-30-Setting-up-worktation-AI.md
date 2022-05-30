@@ -47,7 +47,27 @@ To ensure that the driver has loaded properly, open up a terminal and enter:
 ```bash
 nvidia-smi
 ```
-If successfukl, you should see your GPU(s) listed in the terminal.
+If successfull, you should see your GPU(s) listed in the terminal. It should look something like this:
+```bash
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 497.09       Driver Version: 497.09       CUDA Version: 11.5     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name            TCC/WDDM | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA Tesla T4  WDDM  | 00000000:01:00.0  On |                  N/A |
+|  0%   39C    P8    14W / 75W |   1228MiB /  8192MiB |      5%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+```
+
 
 _Tip: If you'd like to continuously watch your GPU's, you can use:_ 
 ```bash
