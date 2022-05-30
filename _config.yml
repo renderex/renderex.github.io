@@ -23,16 +23,16 @@ timezone: Asia/Dubai
 
 title: RendeRex                        # the main title
 
-tagline: Blog & Documentation   # it will display as the sub-title
+tagline: Documentation, News & Blog   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  This is where RendeRex posts news, blog posts and documentation.
+  Here is where you can find the latest news, documentation and blog posts from RendeRex Computers LLC.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://docs.renderex.ae'
 
 #github:
-  #username: github_username             # change to your github username
+  username: renderex             # change to your github username
 
 #twitter:
   #username: twitter_username            # change to your twitter username
@@ -40,12 +40,12 @@ url: ''
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: RendeRex
+  name: RendeRex Computers LLC
   email: info@renderex.ae            # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # https://twitter.com/username      # change to your twitter homepage
-    # https://github.com/username       # change to your github homepage
+     https://github.com/renderex       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
      - https://www.linkedin.com/company/69259567/
