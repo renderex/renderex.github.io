@@ -44,11 +44,10 @@ social:
   email: info@renderex.ae            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # https://twitter.com/username      # change to your twitter homepage
-     https://github.com/renderex       # change to your github homepage
+    - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/renderex       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-     - https://www.github.com/renderex/
      - https://www.linkedin.com/company/69259567/
      - https://www.youtube.com/channel/UC3W69I_MOgw734_eXhRn57Q/
 
