@@ -66,6 +66,6 @@ echo 'GOVERNOR="performance"' | sudo tee /etc/default/cpufrequtils
 sudo systemctl disable ondemand
 ```
 
-For pre-built, pre-configured AI workstations, be sure to visit:
+For pre-built, [pre-configured AI workstations](https://renderex.ae/workstations/data-science.html), be sure to visit:
 
 [https://renderex.ae/workstations/data-science.html](https://renderex.ae/workstations/data-science.html)
