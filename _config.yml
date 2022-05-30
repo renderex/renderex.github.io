@@ -84,7 +84,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://renderex.ae/assets/img/images/logo.jpg
+avatar: https://renderex.ae/assets/img/images/logo-square.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
