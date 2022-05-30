@@ -4,8 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
-
 ## Who are We?
-RendeRex is a private technology company in Dubai which provides AI and GPU-Compute hardware.
+Headquartered in Dubai, United Arab Emirates, RendeRex is a privately-owned technology company which aims to provide the highest caliber of technological proficiency to the rapidly growing and advancing MENA region. Through expertise, key strategic partnerships, and a portfolio of government & enterprise projects, RendeRex Computers specializes in delivering highly customized and effective hardware & software solutions for all technological challenges.
