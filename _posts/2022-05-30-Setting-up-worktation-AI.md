@@ -1,7 +1,7 @@
 ---
 title: Setting up a Workstation for AI
 categories: [AI, workstations, tutorial]
-tags: [renderex computers,servers,workstations, ai] #TAG names should be lowercase
+tags: [renderex computers,servers,workstations, ai, tutorial, ai tutorial] #TAG names should be lowercase
 ---
 
 # Getting Started
@@ -68,4 +68,4 @@ sudo systemctl disable ondemand
 
 For pre-built, pre-configured AI workstations, be sure to visit:
 
-https://renderex.ae/workstations/data-science.html
+[https://renderex.ae/workstations/data-science.html](https://renderex.ae/workstations/data-science.html)
