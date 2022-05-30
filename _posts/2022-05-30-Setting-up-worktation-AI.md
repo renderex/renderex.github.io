@@ -22,11 +22,11 @@ alias lbm-nouveau off
 ```
 Save the file and exit out of nano.
 
-Disable the nouveau in the Linux kernel:
+Disable nouveau in the Linux kernel:
 ```bash
 echo options nouveau modeset=0 | sudo tee -a /etc/modprobe.d/blacklist-nouveau.conf
 ```
-Update the kernel's initramfs
+Update initramfs
 ```bash
 sudo update-initramfs -u
 ```
