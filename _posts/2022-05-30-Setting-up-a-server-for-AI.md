@@ -1,6 +1,6 @@
 ---
 title: Setting up a GPU Server for AI virtual machines with Proxmox
-categories: [AI, servers, tutorial, proxmox, virtualization]
+categories: [AI, tutorial, servers]
 tags: [renderex computers,servers, gpu server, ai, tutorial, ai tutorial, virtualization, virtual machine, pcie passthrough, gpu vm, gpu virtual machine] #TAG names should be lowercase
 ---
 # What is Proxmox and the advantage of Virtual Machines
@@ -115,7 +115,7 @@ If you can see that each GPU has its *own* IOMMU grouping, then everything went 
 
 Once the server has rebooted, access the web GUI (port **8006**).
 
-We won't go over how to set-up an Ubuntu VM here, but there are plenty of resources online on how to do this.
+We won't go over how to set-up an Ubuntu VM here, but you can check out [our guide on how to set up a 'cloud image' version of Ubuntu.](https://docs.renderex.ae/Setting-up-a-cloud-image-VM/)
 
 ### Attaching the GPU:
 Once you have your Ubuntu VM set-up, let's go ahead and attach the GPU. Under 'PCIe devices', scroll down until you find the IOMMU grouping/vendor ID of the GPU you'd like to attach and select it.

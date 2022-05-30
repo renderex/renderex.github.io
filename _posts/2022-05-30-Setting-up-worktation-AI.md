@@ -1,7 +1,7 @@
 ---
 title: Setting up a Workstation for AI
-categories: [AI, workstations, tutorial]
-tags: [renderex computers,servers,workstations, ai, tutorial, ai tutorial] #TAG names should be lowercase
+categories: [AI, tutorial, workstations]
+tags: [renderex computers,servers,workstations, ai, tutorial, ai tutorial, linux] #TAG names should be lowercase
 ---
 
 # Getting Started
@@ -86,6 +86,6 @@ echo 'GOVERNOR="performance"' | sudo tee /etc/default/cpufrequtils
 sudo systemctl disable ondemand
 ```
 
-For pre-built, [pre-configured AI workstations](https://renderex.ae/workstations/data-science.html), be sure to visit:
+For [pre-built, pre-configured AI workstations](https://renderex.ae/workstations/data-science.html), be sure to visit:
 
 [https://renderex.ae/workstations/data-science.html](https://renderex.ae/workstations/data-science.html)
