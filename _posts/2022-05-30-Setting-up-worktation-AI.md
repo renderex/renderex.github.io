@@ -20,7 +20,7 @@ options nouveau modeset=0
 alias nouveau off
 alias lbm-nouveau off
 ```
-Save the file and exit out of nano.
+Save the file and exit out of nano (or your preferred text editor).
 
 Disable nouveau in the Linux kernel:
 ```bash
