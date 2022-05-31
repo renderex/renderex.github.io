@@ -14,7 +14,7 @@ Format the disk you want to add, creating a partition, in this case we will crea
 cfdisk /dev/sdf
 ```
 
-## Create a physical volume
+## Create a physical volume 
 
 ```bash
 pvcreate /dev/sdf1
