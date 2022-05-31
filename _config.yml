@@ -21,9 +21,9 @@ timezone: Asia/Dubai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: RendeRex                        # the main title
+title: RendeRex Computers                       # the main title
 
-tagline: Documentation, News & Blog   # it will display as the sub-title
+tagline: Documentation & News   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Here is where you can find the latest news, documentation and blog posts from RendeRex Computers LLC.
