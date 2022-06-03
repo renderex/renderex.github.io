@@ -1,3 +1,9 @@
+---
+title: GPU Compute Servers
+categories: [AI, servers]
+tags: [renderex computers,servers, gpu server, ai, virtualization, virtual machine, pcie passthrough, gpu vm, gpu virtual machine] #TAG names should be lowercase
+---
+
 # GPU Compute Servers
 
 ## Training Server
