@@ -12,7 +12,7 @@ Navigate to the storage dedicated to your ISO images and click the "ISO Images" 
 
 ## 2. Download the ISO
 
-Above the ISO images, you have two options, either to upload your own or to download from URL. For the sake of this example, we'll be downloading Ubuntu 20.04LTS directly from Canonical.
+Above the ISO images, you have two options, either to upload your own or to download from URL. For the sake of this example, we'll be downloading Ubuntu 20.04LTS directly from Canonical. 
 
 ![Downloading Ubuntu in Proxmox](https://www.renderex.ae/docs/new-iso/2.png)
 
@@ -22,7 +22,7 @@ Navigate to the website of the ISO you'd like to download and copy the download 
 
 ![Download Ubuntu 20.04](https://www.renderex.ae/docs/new-iso/3.png)
 
-## 4. Paste the download link back into the Proxmox GUI
+## 4. Paste the download link back into the Proxmox GUI. Note that once the ISO is downloaded into your Proxmox server, it will stay there, meaning you don't need to download the ISO every time you want to use it for a VM, it will be available for all future VM's until you delete it.
 
 ![Proxmox storage](https://www.renderex.ae/docs/new-iso/4.png)
 
