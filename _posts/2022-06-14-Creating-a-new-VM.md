@@ -81,7 +81,7 @@ The "Hardware" tab allows you to control the hardware attached to your VM. This 
 
 Go ahead and use the console to set-up your networking inside the VM, and update. Optionally, you can also setup a guest agent in your VM so that you can control and manage things like the IP address from the host itself (Proxmox).
 
-On Linux this is very easy to achieve. On Ubunutu:
+On Linux this is very easy to achieve. On Ubuntu:
 
 ```bash
 sudo apt-get install qemu-guest-agent
