@@ -10,6 +10,11 @@ tags: [renderex computers,servers,workstations, proxmox, virtualization, ai, tut
 
 >A huge page is a memory page that is larger than 4Ki. On x86_64 architectures, there are two common huge page sizes: 2Mi and 1Gi. Sizes vary on other architectures. To use huge pages, code must be written so that applications are aware of them. Transparent Huge Pages (THP) attempt to automate the management of huge pages without application knowledge, but they have limitations. In particular, they are limited to 2Mi page sizes. THP can lead to performance degradation on nodes with high memory utilization or fragmentation due to defragmenting efforts of THP, which can lock memory pages. For this reason, some applications may be designed to (or recommend) usage of pre-allocated huge pages instead of THP.
 
+## Why and when to use Hugepages
+
+Anytime you want to create a VM with more than 64GB of RAM, you'll want to use Hugepages.
+
+
 ## Enable Hugepages
 
 To enable Hugepages in Proxmox, in the "hardware tab", under "CPU", you want to enable the hugepages flag, which is titled `pdpe1gb`.
