@@ -18,7 +18,7 @@ taskset --cpu-list --all-tasks --pid 0-7 $(< /run/qemu-server/103.pid)
 ```
 
 In this case, replace `0-9` with the number of CPU cores you want to pin to this virtual machine. **note: CPU core count starts at 0, so in this example we are pinning 8 cores to the VM with ID 103**.
-In addition, replace `104.pid` with the ID number of the VM you'd like to pin.
+In addition, replace `103.pid` with the ID number of the VM you'd like to pin.
 
 ## Checking if the cores are pinned
 
