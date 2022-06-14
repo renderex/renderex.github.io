@@ -26,9 +26,8 @@ You can easily check if the CPU pinning has been successful by running `htop` on
 
 ## Automating the process
 
-###Adding the hookscript
 
-This can be achieved in Proxmox by creating a 'hook' script. In this example, we create a hook script for VM 103, to permanently pin 8 CPU cores to it. 
+This can be achieved in Proxmox by creating a 'hookscript'. In this example, we create a hook script for VM 103, to permanently pin 8 CPU cores to it. 
 
 ```bash
 nano /etc/pve/qemu-server/103.conf
